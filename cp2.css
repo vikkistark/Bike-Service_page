@@ -1,0 +1,73 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	background-image: url(bg12.jpg);
+	background-size: cover;
+	top:900px;
+
+}
+.how
+{
+	top:-50;
+	font-family: "Gill Sans", sans-serif;
+	position: relative;
+	background: rgba(0,0,0,.5);
+	padding: 60px;
+	margin:200;
+	left:100;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.it
+{
+	display: inline-flex;
+	padding:15px;
+	margin-right: 100px;
+}
+.works
+{
+	display: inline-flex;
+	padding:40px;
+	width:1000px;
+}
+h1
+{
+font-size: 37px;
+margin-left: 350px;
+margin-bottom: 30px
+}
+.it li
+{
+	font-family: "Gill Sans", sans-serif;
+	font-size: 35px;
+	width:200px;
+	margin-left: 40px;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.works li
+{
+	display: flex;
+	font-family: "Gill Sans", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 50px;
+	width:400px;
+}
+.work .li1 li
+{
+	margin-right: 100px;
+
+}
+.it li i
+{
+	margin-right: 5px;
+}
+
+

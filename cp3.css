@@ -1,0 +1,228 @@
+ body
+{
+    padding:0;
+    font-family: sans-serif;
+    background-image: url(bg12.jpg);
+    background-size: auto;
+    background-position: absolute;
+
+
+}
+ form
+{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  height: 700px;
+  width: 700px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: #FAFAFA;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.bh
+{
+font-size: 35px;
+margin-left: 100px;
+margin-bottom: 60px;
+padding: 20px;
+width:400;
+text-align: center;
+
+}
+select
+{
+	font-size: 20px;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-bottom: 2px solid #C10101;
+}
+.bp
+{
+	color: black;
+}
+form .bp
+{
+  position: relative;
+}
+form .bp input
+{
+  
+  top:16.2%;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  border-bottom: 2px solid #C10101;
+
+}
+ form .bd input 
+{
+  position: absolute;
+  left:60%;
+  top:28%;
+  width: 20%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+   box-sizing: border-box;
+border-radius: 20px;
+  border-bottom: 2px solid #C10101;
+
+}
+form .bp label
+{
+  position: absolute;
+  top:0;
+  left: 2%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  transition: .5s;
+
+}
+form .bd label
+{
+  position: absolute;
+  top:28.5%;
+  left: 60%;
+  width:100px;
+  padding: 10px 0;
+  font-size: 17px;
+  color: black;
+  pointer-events: none;
+  background: #FAFAFA;
+  border-radius: 5px;
+}
+form .bp input:focus ~ label,
+form .bp input:valid ~ label
+{
+  top: -20px;
+  left: 0;
+  color: #EF4646;
+  font-size: 12px;
+  
+}
+form .bd input:focus ~ label,
+form .bd input:valid ~ label
+{
+  top: -15.8%px;
+  left: 70%;
+  color:transparent;
+  font-size: 12px;
+  background: transparent;
+}
+
+ form .bt1
+{
+  position: absolute;
+  left:60%;
+  top:43%;
+  width:30%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  
+}
+ form .bt2
+{
+  position: absolute;
+  left:60%;
+  top:64%;
+  width:30%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+}
+form .bt1 label
+{
+  position: absolute;
+  left:30%;
+  top:43%;
+  width:100px;
+  padding: 10px 0;
+  font-size: 17px;
+  color: black;
+  pointer-events: none;
+  background: white;
+  border-radius: 5px;
+}
+form .bt2 label
+{
+  position: absolute;
+  left:30%;
+  top:64%;
+  width:100px;
+  padding: 10px 0;
+  font-size: 17px;
+  color: black;
+  pointer-events: none;
+  background: white;
+  border-radius: 5px;
+}
+
+textarea
+{
+ resize: none;
+ width:100%;
+ height: 100%
+ border:1px solid #EF4646;
+ box-shadow: 0 0px 2px 0 #EF4646;
+}
+
+form .bt1 textarea:focus ~ label,
+form .bt1 textarea:valid ~ label
+{
+  top: -15.8%px;
+  left: 70%;
+  color:black;
+  font-size: 12px;
+  background: transparent;
+}
+form .end button
+{
+  position: relative;
+  background: #65497E;
+  text-decoration: none;
+  border-color: none;
+  color:white;
+  padding: 15px;
+  border-radius:10px;
+  margin-left:100px;
+}

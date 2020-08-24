@@ -1,0 +1,130 @@
+body
+{
+    padding:0;
+    font-family: sans-serif;
+    background: #FAFAFA;
+    background-size: auto;
+    background-position: absolute;
+}
+ 
+ h1
+ {
+	font-size: 35px;
+	margin-left: 500px;
+	margin-bottom: 60px;
+	padding: 20px;
+	width:400;
+	text-align:center;
+	background:#FAFAFA;
+	border-radius: 20px; 
+  border-bottom: 1px solid #EF4646;  
+
+ }
+ .scooter
+ {
+  position: absolute;
+  top: 58%;
+  left: 30%;
+  height: 400px;
+  width: 350px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: url(scooty.png);
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .scooter .bh h2
+ {
+ 	position: absolute;
+ 	top:2%;
+ 	left:15%;
+ 	font-size:30px;
+
+ }
+  .scooter .pr .price
+ {
+ 	position: absolute;
+ 	top:40%;
+ 	left:35%;
+ 	font-size:50px;
+ 	color:#EF4646;
+
+ }
+   .scooter .pr .symbol
+ {
+ 	position: absolute;
+ 	top:40%;
+ 	left:35%;
+ 	font-size:20px;
+ 	color:#65497E;
+
+ }
+ .scooter .book a
+ {
+ 	position:absolute;
+ 	top:70%;
+ 	left:30%;
+ 	text-decoration:none;
+ 	background: #65497E;
+ 	color:white;
+ 	padding: 10px;
+ 	border-radius:5px;
+}
+
+
+ .bike
+ {
+  position: absolute;
+  top: 58%;
+  left: 70%;
+  height: 400px;
+  width: 350px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: url(bike.png);
+  background-size: ;
+  background-position: left;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .bike .bh h2
+ {
+
+ 	position: absolute;
+ 	top:2%;
+ 	left:65%;
+ 	font-size:30px;
+
+ }
+  .bike .pr .price
+ {
+ 	position: absolute;
+ 	top:40%;
+ 	left:35%;
+ 	font-size:50px;
+ 	color:#EF4646;
+
+ }
+   .bike .pr .symbol
+ {
+ 	position: absolute;
+ 	top:40%;
+ 	left:35%;
+ 	font-size:20px;
+ 	color:#65497E;
+
+ }
+ .bike .book a
+ {
+ 	position:absolute;
+ 	top:70%;
+ 	left:30%;
+ 	text-decoration:none;
+ 	background: #65497E;
+ 	color:white;
+ 	padding: 10px;
+ 	border-radius:5px;
+}
+
